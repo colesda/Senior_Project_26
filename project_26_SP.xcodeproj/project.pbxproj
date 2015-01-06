@@ -14,6 +14,8 @@
 		CA6C57391A4B8AF40059C8B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6C57381A4B8AF40059C8B9 /* Images.xcassets */; };
 		CA6C573C1A4B8AF40059C8B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */; };
 		CA6C57481A4B8AF40059C8B9 /* project_26_SPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */; };
+		CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */; };
+		CA87CACC1A57803C00FEFCC7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CACB1A57803C00FEFCC7 /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CA6C57411A4B8AF40059C8B9 /* project_26_SPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_26_SPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6C57461A4B8AF40059C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_26_SPTests.swift; sourceTree = "<group>"; };
+		CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMeasurement.swift; sourceTree = "<group>"; };
+		CA87CACB1A57803C00FEFCC7 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 		CA6C572B1A4B8AF40059C8B9 /* project_26_SP */ = {
 			isa = PBXGroup;
 			children = (
+				CA87CACB1A57803C00FEFCC7 /* Camera.swift */,
+				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
+				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
 				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
-				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
 				CA6C57381A4B8AF40059C8B9 /* Images.xcassets */,
 				CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */,
 				CA6C57301A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld */,
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */,
+				CA87CACC1A57803C00FEFCC7 /* Camera.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */,
+				CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				CA6C574D1A4B8AF40059C8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA6C574E1A4B8AF40059C8B9 /* Build configuration list for PBXNativeTarget "project_26_SPTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				CA6C57501A4B8AF40059C8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

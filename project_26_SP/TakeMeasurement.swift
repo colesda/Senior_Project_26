@@ -8,19 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class TakeMeasurement: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("Test Requirement #1: 'Main Menu' Loaded")
+        println("Test Requirement #2: 'Take a Measurement' Loaded")
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
