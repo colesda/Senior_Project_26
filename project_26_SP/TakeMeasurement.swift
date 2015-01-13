@@ -8,7 +8,10 @@
 
 import UIKit
 
-class TakeMeasurement: UIViewController {
+class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,17 @@ class TakeMeasurement: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func chooseImageFromPhotoLibrary(sender: AnyObject) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .PhotoLibrary
+        presentViewController(picker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        imageView.image = info[UIImagePickerControllerOriginalImage] as UIImage
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
 }
 
