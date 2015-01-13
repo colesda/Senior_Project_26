@@ -15,7 +15,9 @@
 		CA6C573C1A4B8AF40059C8B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */; };
 		CA6C57481A4B8AF40059C8B9 /* project_26_SPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */; };
 		CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */; };
-		CA87CACC1A57803C00FEFCC7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CACB1A57803C00FEFCC7 /* Camera.swift */; };
+		CACB51641A604DCE00027668 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51631A604DCE00027668 /* Camera.swift */; };
+		CACB51661A604EB300027668 /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51651A604EB300027668 /* new.swift */; };
+		CACB516A1A60531500027668 /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51691A60531500027668 /* CameraRoll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,9 @@
 		CA6C57461A4B8AF40059C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_26_SPTests.swift; sourceTree = "<group>"; };
 		CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMeasurement.swift; sourceTree = "<group>"; };
-		CA87CACB1A57803C00FEFCC7 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../Camera.swift; sourceTree = "<group>"; };
+		CACB51631A604DCE00027668 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../Camera.swift; sourceTree = "<group>"; };
+		CACB51651A604EB300027668 /* new.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
+		CACB51691A60531500027668 /* CameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRoll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,8 @@
 		CA6C572B1A4B8AF40059C8B9 /* project_26_SP */ = {
 			isa = PBXGroup;
 			children = (
-				CA87CACB1A57803C00FEFCC7 /* Camera.swift */,
+				CACB51691A60531500027668 /* CameraRoll.swift */,
+				CACB51631A604DCE00027668 /* Camera.swift */,
 				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
 				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
@@ -92,6 +97,7 @@
 				CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */,
 				CA6C57301A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld */,
 				CA6C572C1A4B8AF40059C8B9 /* Supporting Files */,
+				CACB51651A604EB300027668 /* new.swift */,
 			);
 			path = project_26_SP;
 			sourceTree = "<group>";
@@ -221,8 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CACB516A1A60531500027668 /* CameraRoll.swift in Sources */,
+				CACB51661A604EB300027668 /* new.swift in Sources */,
 				CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */,
-				CA87CACC1A57803C00FEFCC7 /* Camera.swift in Sources */,
+				CACB51641A604DCE00027668 /* Camera.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */,
 				CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */,
