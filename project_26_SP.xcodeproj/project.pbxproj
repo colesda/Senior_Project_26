@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F2A4E141A65057500D5C25D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A4E131A65057500D5C25D /* .gitignore */; };
 		CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */; };
 		CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57301A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld */; };
 		CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57331A4B8AF40059C8B9 /* ViewController.swift */; };
@@ -32,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2A4E131A65057500D5C25D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = project_26_SP/.gitignore; sourceTree = "<group>"; };
+		0F2A4E151A65078600D5C25D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CA6C57291A4B8AF40059C8B9 /* project_26_SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_26_SP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6C572D1A4B8AF40059C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +70,7 @@
 		CA6C57201A4B8AF40059C8B9 = {
 			isa = PBXGroup;
 			children = (
-				0F2A4E131A65057500D5C25D /* .gitignore */,
+				0F2A4E151A65078600D5C25D /* .gitignore */,
 				CA6C572B1A4B8AF40059C8B9 /* project_26_SP */,
 				CA6C57441A4B8AF40059C8B9 /* project_26_SPTests */,
 				CA6C572A1A4B8AF40059C8B9 /* Products */,
@@ -210,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2A4E141A65057500D5C25D /* .gitignore in Resources */,
 				CA6C57371A4B8AF40059C8B9 /* Main.storyboard in Resources */,
 				CA6C573C1A4B8AF40059C8B9 /* LaunchScreen.xib in Resources */,
 				CA6C57391A4B8AF40059C8B9 /* Images.xcassets in Resources */,
