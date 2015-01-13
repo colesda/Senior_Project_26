@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2A4E131A65057500D5C25D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0F2A4E131A65057500D5C25D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = project_26_SP/.gitignore; sourceTree = "<group>"; };
 		CA6C57291A4B8AF40059C8B9 /* project_26_SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_26_SP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6C572D1A4B8AF40059C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +71,7 @@
 		CA6C57201A4B8AF40059C8B9 = {
 			isa = PBXGroup;
 			children = (
+				0F2A4E131A65057500D5C25D /* .gitignore */,
 				CA6C572B1A4B8AF40059C8B9 /* project_26_SP */,
 				CA6C57441A4B8AF40059C8B9 /* project_26_SPTests */,
 				CA6C572A1A4B8AF40059C8B9 /* Products */,
@@ -93,7 +94,6 @@
 				CACB51631A604DCE00027668 /* Camera.swift */,
 				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
 				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
-				0F2A4E131A65057500D5C25D /* .gitignore */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
 				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
 				CA6C57381A4B8AF40059C8B9 /* Images.xcassets */,
